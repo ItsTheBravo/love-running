@@ -291,6 +291,7 @@ footer {
         padding: 0;
     }
 
+
     hr {
         display: none;
     }
@@ -331,5 +332,16 @@ footer {
     .right-about-heading p {
         padding: 0 20px;
         text-align: center;
+    }
+
+    #photos {
+        column-count: 3;
+    }
+}
+
+/* for small screen sizes */
+@media screen and (max-width: 800px) {
+    #photos {
+        column-count: 2;
     }
 }
